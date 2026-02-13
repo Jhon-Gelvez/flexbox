@@ -36,7 +36,8 @@
     justify-content: center;
     align-items: center;
     width: 100dvw;
-    background-color: #37fff5;
+    background-color: #212121;
+    color: #fff;
     padding: 20px;
     flex-wrap: wrap; /*esto hace que si la img no cabe no genere scroll y la tire hacia abajo */
 }
@@ -44,4 +45,33 @@
 .main__article__div__img {
     width: 200px;
     height: 200px;
+}
+
+.main__article__form {
+    width: 100dvw;
+}
+
+.main__article__form__fieldset {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: space-evenly;
+}
+
+.main__article__form__fieldset__div {
+    width: 150px;
+    display: flex;
+    align-content: center;
+    justify-content: space-evenly;
+}
+
+.main__article__form__input {
+    margin: 10px;
+}
+.main__article__form__fieldset__div--button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
